@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Configura chave do Mercado Pago (use token de TESTE primeiro!)
 mercadopago.configure({
-  access_token: "SUA_ACCESS_TOKEN_AQUI"
+  access_token: "TEST-8779171755258072-090219-4198410b1d3dc7c1f45ee93c135a70cc-2627703883"
 });
 
 // Rota de teste (GET)
