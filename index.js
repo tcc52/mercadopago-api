@@ -17,6 +17,8 @@ app.get("/", (req, res) => {
 // Criar pagamento
 app.post("/pagamento", async (req, res) => {
   try {
+    const { title, quantity, unit_price } = req.body;
+    
     const preference = new mercadopago.Preference(client);
 
     const response = await preference.create({
