@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Configuração Mercado Pago (SDK nova)
 const client = new mercadopago.MercadoPagoConfig({
-  accessToken: "APP_USR-8779171755258072-090219-febcca77b59552a9bb2a986f2193361b-2627703883"
+  accessToken: "TEST-8779171755258072-090219-4198410b1d3dc7c1f45ee93c135a70cc-2627703883"
 });
 
 // Criar rota de teste
